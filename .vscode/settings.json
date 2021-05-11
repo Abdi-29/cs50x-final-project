@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "flask/bin/python",
+    "sqltools.connections": [],
+    "sqltools.useNodeRuntime": true
+}

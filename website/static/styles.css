@@ -1,0 +1,44 @@
+body {
+    background-image: url("we.jpeg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+.header{
+    font-family: var;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: black;
+    min-width: 160px;
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: black;
+    display: block;
+}
+.dropdown-content a hover{
+    background: #ddd;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.nav-item last-child{
+    padding-right: 10.5em;
+}
+.nav-item{
+    padding: 0.5em;
+}
+header .row .col-md-5{
+    padding: 4.2vmin 1vmin;
+}
+header .row .col-md-7{
+   padding: 22vmin 1vmin;
+   padding-bottom: 35vmin;
+}

@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Video
+{% endblock %}
+
+{% block main %}
+<div class="row">
+	<div class="col col-md-9 col-sm-12">
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ video_id }}?controls=1" allowfullscreen></iframe>
+    </div>
+    <div class="h5 video-title">{{ video.title }}</div>
+    <div class="video-description"><b>Descripton: &nbsp;</b>{{ video.description }}</div>
+    </div>
+</div>
+{% endblock %}
+
